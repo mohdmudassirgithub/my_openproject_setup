@@ -27,20 +27,6 @@ docker run hello-world
 
 # Useradd docker group
 sudo usermod -aG docker fedora
-
-
-
-systemctl --user start docker-desktop
-
-# Docker compose version
-Docker Compose version v2.39.4
+newgrp docker
 
 docker --version
-Docker version 28.4.0, build d8eb465
-
-# Docker version
-Client:
- Version:           28.4.0
- API version:       1.51
- Go version:        go1.24.7
-<...>
