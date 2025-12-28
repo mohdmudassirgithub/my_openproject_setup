@@ -30,3 +30,5 @@ sudo usermod -aG docker fedora
 newgrp docker
 
 docker --version
+
+
